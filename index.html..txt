@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shauryagraphy - Wildlife Photography</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 30px;
+      background-color: #222;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    nav a {
+      margin: 0 20px;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+    footer {
+      background: #222;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    .logo {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+    .logo span {
+      display: block;
+      font-size: 0.5em;
+      color: #777;
+    }
+    form input, form textarea {
+      padding: 10px;
+      margin: 10px;
+      width: 80%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">SK <span>sk • ng • vk</span></div>
+    <h1>Shauryagraphy</h1>
+    <p>Wildlife Photography</p>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="portfolio">
+    <h2>Wildlife Gallery</h2>
+    <div class="gallery">
+      <img src="https://picsum.photos/id/237/300/200" alt="Wild Animal 1">
+      <img src="https://picsum.photos/id/1025/300/200" alt="Wild Animal 2">
+      <img src="https://picsum.photos/id/1074/300/200" alt="Wild Animal 3">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Shaurya, a passionate wildlife photographer capturing moments from the wild with my lens. Through Shauryagraphy, I share the beauty and power of nature.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea rows="4" placeholder="Your Message"></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Shauryagraphy. All rights reserved.
+  </footer>
+
+</body>
+</html>
